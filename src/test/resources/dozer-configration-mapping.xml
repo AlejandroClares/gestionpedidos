@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    
+    <!-- Presentation TO Business -->
+    
+    <mapping> 
+    	<class-a>com.pgrsoft.gestionpedidos.backend.business.model.Camarero</class-a>
+    	<class-b>com.pgrsoft.gestionpedidos.backend.presentation.model.CamareroVO</class-b>
+    	<field>
+      		<a>id</a>
+      		<b>codigo</b>
+    	</field>
+  	</mapping>
+  	
+  	<mapping> 
+    	<class-a>com.pgrsoft.gestionpedidos.backend.business.model.Cliente</class-a>
+    	<class-b>com.pgrsoft.gestionpedidos.backend.presentation.model.ClienteVO</class-b>
+    	<field>
+      		<a>id</a>
+      		<b>codigo</b>
+    	</field>
+  	</mapping>
+  	
+  	
+  	<!-- Business TO Integration -->
+
+</mappings>
